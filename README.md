@@ -8,11 +8,10 @@
 ---
 ## If you have error
 1. open your powershell directroy 
-## usually located 
-  1. C:\Windows\System32\WindowsPowerShell\v1.0\
-  2. C:\Windows\WinSxS\wow64_microsoft-windows-powershell-exe_31bf3856ad364e35_10.0.22000.1_none_c9ae46ac3b5c78ef\powershell.exe 
-  3. C:\Users\[PUT_USER_NAME]\Documents\PowerShell\
----
+* profile usually located 
+  *  C:\Windows\System32\WindowsPowerShell\v1.0\
+  *  C:\Windows\WinSxS\wow64_microsoft-windows-powershell-exe_31bf3856ad364e35_10.0.22000.1_none_c9ae46ac3b5c78ef\powershell.exe 
+  *  C:\Users\[PUT_USER_NAME]\Documents\PowerShell\
 2. make 'Microsoft.PowerShell_profile.ps1' using notepad
 3. and then onen powershell
 4. put ` notepad $profile `
