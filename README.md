@@ -2,7 +2,7 @@
 
  ---
 
-# winodw setting repo includes (본 글에서 포함하는 setting list)
+# window setting repo includes (본 글에서 포함하는 setting list)
 
 <br />
 <br />
