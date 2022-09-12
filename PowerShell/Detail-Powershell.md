@@ -1,6 +1,8 @@
 # How to find my windows Powershell profile?
 \# how to set profile location(directory)
 
+![image](https://user-images.githubusercontent.com/77220824/189601225-f0d7d1b6-8405-4cad-84d7-025bc68680c9.png)
+
 ## comman case
 1. open powershell and write "notepad $PROFILE
 ` notepad $PROFILE `
