@@ -31,3 +31,8 @@
 ## 4. neo vim : neo vim configuration in widow env (네오 빔 환경 설정 파일) [nvim set](https://github.com/ShinMini/NEOVIM-In-Winodw)
 
 ![image](https://user-images.githubusercontent.com/77220824/189604383-9eddfd96-d96c-4be2-b235-4af486f9a9e9.png)
+
+## install-module (based on version -5)
+install-module -name Terminal-Icons
+install-module -Name posh-git
+install-module PSReadLine
