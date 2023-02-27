@@ -4,8 +4,8 @@
  1. 아직 안늦었으니 뒤로가기를 살며시 누른다. -> 정신 건강 +1
 
  2. 윈도우 버튼을 살포시 눌러 cmd를 검색한다. 
-  1. 관리자권한으로 실행하기를 눌러 명령 프롬프트창을 실행한다. 
-  2. 해당 명령어를 cmd에 입력해 입문을 시작한다. 
+  	1. 관리자권한으로 실행하기를 눌러 명령 프롬프트창을 실행한다. 
+  	2. 해당 명령어를 cmd에 입력해 입문을 시작한다. 
 ``` bash
 	# 파워쉘 설치
 	@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command " [System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
