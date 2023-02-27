@@ -14,7 +14,7 @@
 <br />
 <br />
 
-## 2. Powershell (파워쉘 빌드업) [Powershell $profile](./PowerShell/Detail-Powershell.md)
+## 2. Powershell (파워쉘 설정에 대한 정보들..) [Powershell $profile](./PowerShell/PS_GUIDE.md)
 
 ![image](https://user-images.githubusercontent.com/77220824/189604174-d9daa7e5-bd01-4278-8d3d-a74138f60596.png)
 
@@ -33,6 +33,7 @@
 ![image](https://user-images.githubusercontent.com/77220824/189604383-9eddfd96-d96c-4be2-b235-4af486f9a9e9.png)
 
 ## install-module (based on version -5)
+
 install-module -name Terminal-Icons
 install-module -Name posh-git
 install-module PSReadLine
