@@ -133,7 +133,21 @@
 
 ---
 
-# 주인장 추천 라이브러리 맛집 모음
+### vim 플러그인을 사용하기 위한 라이브러리 설치
+
+``` powershell
+iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
+    ni "$(@($env:XDG_DATA_HOME, $env:LOCALAPPDATA)[$null -eq $env:XDG_DATA_HOME])/nvim-data/site/autoload/plug.vim" -Force
+```
+
+### 이후 gcc 혹은 c 컴파일러가 없다면, 해당 링크를 통해 설치
+
+* 이유: vim script를 지원하는 많은 plugin 라이브러리들은 c 또는 c++로 작성되어있음.
+* [MinGW](https://sourceforge.net/projects/mingw/files/Installer/mingw-get-setup.exe/download)
+
+---
+
+# 주인장 추천 vim plugin 맛집 모음
 
 ---
 
