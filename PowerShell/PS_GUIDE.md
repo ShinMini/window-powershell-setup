@@ -11,14 +11,15 @@
 3. 마이크로소프트 스토어를 통해 다운받는다.
 
 ---
+## powershell 설치 이후, $PROFILE 설정하기
+
+### [$profile 설정 설명서](./docs/config_profile.md)
+
 
 ## 최종 결과물
 
 ![최종 결과물](https://user-images.githubusercontent.com/77220824/221760135-ddefb1a5-0c8f-4938-82ba-4b4b4f7bf6dd.png)
 
-## powershell 설치 이후, $PROFILE 설정하기
-
-### [$profile 설정 설명서](./docs/config_profile.md)
 
 ---
 
