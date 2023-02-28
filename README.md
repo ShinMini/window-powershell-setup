@@ -18,7 +18,7 @@
 
 ![vscode set up thumbnail](https://user-images.githubusercontent.com/77220824/189601870-4647340b-6278-4946-9698-7bdefa2b7b71.png)
 
-#### 4. [싸이월드 감성 아이콘 모음집](./FolderIcons/Detail-FolderIcons.md)
+#### 4. [싸이월드 감성 아이콘 모음집](./FolderIcons/README.md)
 
 ![folder icon thumbnail](https://user-images.githubusercontent.com/77220824/189603971-1dd4308a-184e-44f1-bc78-580a53d631c2.png)
 
