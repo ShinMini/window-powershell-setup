@@ -1,25 +1,61 @@
-### 시작하기 앞서 혹시 만약 내가 powershell이 뭔지 모른다? 혹은 설치를 안했다?
 
-- 당신에게 주어진 3가지 선택지
+# 목차
 
-1. 아직 안늦었으니 뒤로가기를 살며시 누른다. -> 정신\_건강++
+### 1. [파워쉘 설치하기](#1-파워쉘-설치하기)
 
-2. 윈도우 버튼을 살포시 눌러 cmd를 검색한다.
+### 2. [파워쉘 꾸미기](#3-파워쉘-꾸미기)
+
+### 3. [파워쉘 $PROFILE(설정파일) 세팅하기](#2-파워쉘-profile설정파일-세팅하기)
+
+## 1. 파워쉘 설치하기
+
+1. 윈도우 버튼을 살포시 눌러 cmd를 검색한다.
    2-1. 관리자권한으로 실행하기를 눌러 명령 프롬프트창을 실행한다.
    2-2. 해당 명령어를 cmd에 입력해 입문을 시작한다.
 
-3. 마이크로소프트 스토어를 통해 다운받는다.
+   ``` cmd
+   winget search Microsoft.PowerShell
+   ```
+
+2. 마이크로소프트 스토어를 통해 다운받는다.
 
 ---
-## powershell 설치 이후, $PROFILE 설정하기
 
-### [$profile 설정 설명서](./docs/config_profile.md)
+## 2. 파워쉘 꾸미기
 
+1. 폰트 설정
+   - NerdFont download - 터미널 아이콘 unicode를 지원하는 폰트 형식입니다.
+   - [홈페이지](https://www.nerdfonts.com/font-downloads)
+   - 다운로드 클릭
+   - [다운로드](img/nerd-font.png)
+   - powershell에서 `ctrl + shift + ,` 를 입력해 json 파일로 이동해, font 설정
 
-## 최종 결과물
+2. oh-my-posh 다운로드
+   - PowerShell 테마 제공
+   - [홈페이지](https://ohmyposh.dev/docs/installation/windows)
+   - 혹은 PowerShell 오픈
 
-![최종 결과물](https://user-images.githubusercontent.com/77220824/221760135-ddefb1a5-0c8f-4938-82ba-4b4b4f7bf6dd.png)
+   ``` powershell
+   winget install JanDeDobbeleer.OhMyPosh -s winget
+   ```
 
+   - 또는
+
+   ``` powershell
+   scoop install https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json
+   ```
+
+---
+
+## 3. 파워쉘 $PROFILE(설정파일) 세팅하기
+
+### [$PROFILE 설정 설명서](./docs/config_profile.md)
+
+- [PROFILE 예시](Microsoft.PowerShell_profile.ps1)
+
+### [PS json setting 예시](settings.json)
+
+- power shell 에서 `ctrl + shift + ,` 를 입력하면 나타나는 json 형식의 파워쉘 설정 파일이다.
 
 ---
 
