@@ -10,11 +10,11 @@
 
 2. [neo vim 설치](#installation)
 
-1. [chocolatey를 사용한 설치](#install-choco)
+  1. [chocolatey를 사용한 설치](#install-choco)
 
-2. [scoop을 사용한 설치](#install-scoop)
+  2. [scoop을 사용한 설치](#install-scoop)
 
-3. [설치 이후 config 파일 설정 / 플러그 연결](#config)
+3. [config 파일  / 플러그 연결](#config)
 
 4. [neo vim 추천 라이브러리](#recommend-libraries)
 
