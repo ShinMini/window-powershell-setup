@@ -150,6 +150,8 @@ iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
 # 주인장 추천 vim plugin 맛집 모음
 
 ---
+### Auto Complete with AI
+[copilot AI  기능](https://github.com/github/copilot.vim)
 
 ### Log files viewing
 
