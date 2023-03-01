@@ -27,7 +27,7 @@
    - NerdFont download - 터미널 아이콘 unicode를 지원하는 폰트 형식입니다.
    - [홈페이지](https://www.nerdfonts.com/font-downloads)
    - 다운로드 클릭
-   - [다운로드](img/nerd-font.png)
+   - ![download-font](img/nerd-font.png)
    - powershell에서 `ctrl + shift + ,` 를 입력해 json 파일로 이동해, font 설정
 
 2. oh-my-posh 다운로드
