@@ -58,6 +58,7 @@
 <kbd>
    <img height="400px" alt="how to run the PS script" src="https://github.com/ShinMini/window-powershell-setup/assets/77220824/5966dda7-a2df-4b52-81eb-b067fcde30a9" />
 </kbd>
+
 10. `init.ps1` 파일의 실행이 완료되었을 경우, 이어서 `Microsoft.PowerShell_profile.ps1`  실행시켜 줍니다.
 
 ---
