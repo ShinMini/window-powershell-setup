@@ -49,6 +49,7 @@
 <kbd>
    <img height="400px" alt="how to run the PS script" src="https://github.com/ShinMini/window-powershell-setup/assets/77220824/5966dda7-a2df-4b52-81eb-b067fcde30a9" />
 </kbd>
+
 10. After running the `init.ps1` file then, click the `Microsoft.PowerShell_profile.ps1` file for configuring.
 
 ## 3. Setting Up PowerShell $PROFILE
