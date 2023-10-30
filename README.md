@@ -11,7 +11,7 @@
 
 <ol>
    <li>
-   <a href="#chapter1">파워쉘 학개론</a>
+   <a href="#제1장---파워쉘-학개론"">파워쉘 학개론</a>
       </li>
    <li>
       <a href="#chapter2">NVIM 학개론
@@ -27,7 +27,10 @@
 
 ---
    
-<h2 id="chapter1">제1장 - <a  href="./PowerShell/PS_GUIDE.md">파워쉘 학개론</a></h2>
+<h2 id="chapter1">제1장 - 파워쉘 학개론</h2>
+<li>
+   <a  href="./PowerShell/PS_GUIDE.md">파워쉘 학개론</a>
+</li>
 
 * 파워쉘(Power Shell)에 대한 초기 설정부터 개인 맞춤 커스터마이징까지의 설정 방법을 소개한 글입니다.
 * powershell이 무엇인지 알고있으며, 추가로 커스터마이징을 통해 나만의 Window 개발환경을 구축하고 싶은 독자분들께 추천드립니다. 
