@@ -45,7 +45,7 @@
             // 터미널 폰트 설정입니다.
             "font": 
             {
-                "face": "JetBrainsMonoNL Nerd Font Mono"
+                "face": "JetBrains Mono"
             },
             // 투명도 설정입니다.
             "opacity": 66,
