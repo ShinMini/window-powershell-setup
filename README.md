@@ -29,7 +29,7 @@
    
 <h2 id="chapter1">제1장 - [파워쉘 학개론]</h2>
 <li>
-   <a  href="./PowerShell/README.kor.md">파워쉘 학개론</a>
+   <a  href="./powershell/README.kor.md">파워쉘 학개론</a>
 </li>
 
 * 파워쉘(Power Shell)에 대한 초기 설정부터 개인 맞춤 커스터마이징까지의 설정 방법을 소개한 글입니다.
@@ -41,7 +41,9 @@
 ---
 
 <h2 id="chapter2" href="https://drive.google.com/drive/folders/1exZWUJMK4Z4MKzEtjbh74N148_Lqcai6">제2장 - [WSL 학개론]</h2>
-
+<li>
+   <a  href="./wsl/README.md">WSL 학개론</a>
+</li>
 * Linux또는 Ubuntu가 무엇인지 알고있으며, VM 또는 Window Subsystem의 개념을 알고있으면 좋습니다.
 * 또는 kernel이 무엇인지 아시거나, docker를 통한 가상 container 빌드 경험이 있으시다면 충분합니다.
 
