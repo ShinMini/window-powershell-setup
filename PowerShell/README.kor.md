@@ -40,9 +40,12 @@
 ## 자 이제 거의다 왔습니다!
 
 8.이제, 터미널을 조금 더 예쁘게 만들어봅시다!
-    1. 먼저 `이모지`와 다양한 `유니코드` 문자를 지원하는 코딩 폰트를 설치합니다.
-       - JetBrain Mono NL - [다운로드 링크!](https://www.jetbrains.com/ko-kr/lp/mono/)
-    2. Download [Oh-My-Posh](https://ohmyposh.dev/docs/migrating) 터미널 테마를 위힌 Oh-My-Posh 라이브러리
+  1. 먼저 `이모지`와 다양한 `유니코드` 문자를 지원하는 코딩 폰트를 설치합니다.
+       - JetBrain Mono NL - [다운로드 링크!](https://www.nerdfonts.com/font-downloads)
+
+  ![image](https://github.com/ShinMini/window-powershell-setup/assets/77220824/8a06d5d9-7014-42b4-8e5a-8e6947776c0d)
+
+  2. Download [Oh-My-Posh](https://ohmyposh.dev/docs/migrating) 터미널 테마를 위힌 Oh-My-Posh 라이브러리
   ```powershell
     # install with winget command
     winget install JanDeDobbeleer.OhMyPosh -s winget
