@@ -27,7 +27,7 @@ Install-ModuleIfMissing "oh-my-posh"
 
 # 스쿱(Scoop) 패키지 매니저 설치
 # 주의: 이 코드가 개인용이 아니라면 다운로드하는 내용을 검증하세요.
-Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+# Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
 
 # 필수 모듈 불러오기
 Import-Module -Name Terminal-Icons
