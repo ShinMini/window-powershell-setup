@@ -1,3 +1,3 @@
 ```powershell
-wsl --install
+wsl --install Debian
 ```
