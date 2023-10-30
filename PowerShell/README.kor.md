@@ -41,7 +41,7 @@
 
 8.이제, 터미널을 조금 더 예쁘게 만들어봅시다!
   1. 먼저 `이모지`와 다양한 `유니코드` 문자를 지원하는 코딩 폰트를 설치합니다.
-       - JetBrain Mono NL - [다운로드 링크!](https://www.nerdfonts.com/font-downloads)
+       - CaskaydiaCove Nerd Font - [다운로드 링크!](https://www.nerdfonts.com/font-downloads)
 
   ![image](https://github.com/ShinMini/window-powershell-setup/assets/77220824/8a06d5d9-7014-42b4-8e5a-8e6947776c0d)
 
