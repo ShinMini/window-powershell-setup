@@ -39,15 +39,17 @@
        ```powershell
        winget install JanDeDobbeleer.OhMyPosh -s winget
        ```
-9. 마지막으로, 파워쉘 프로파일 저장이 완료되었다면 저장한 폴더로 이동해 powershell로 해당 script를 실행해줍니다.
-   * 정상적으로 위 과정을 따라오셨을 경우, profile 위치는 다음 명령어를 통해 확인할 수 있습니다.
+9. Finally, navigate to the folder where you saved your PowerShell profile and run the script.
+    * [init.ps1](./init.ps1) file and [Microsoft.PowerShell_profile.ps1](Microsoft.PowerShell_profile.ps1) file links 
+    * To confirm the profile location, use the following command:
   ``` powershell
    ii $HOME'/Documents/Windows PowerShell'
    ```
 
 <kbd>
-   <img height="400px" alt="how to run the PS script" src="https://github.com/ShinMini/window-powershell-setup/assets/77220824/8ad7cbed-5504-4cfc-b68f-d5ef859ad46a" />
+   <img height="400px" alt="how to run the PS script" src="https://github.com/ShinMini/window-powershell-setup/assets/77220824/5966dda7-a2df-4b52-81eb-b067fcde30a9" />
 </kbd>
+10. After running the `init.ps1` file then, click the `Microsoft.PowerShell_profile.ps1` file for configuring.
 
 ## 3. Setting Up PowerShell $PROFILE
 
