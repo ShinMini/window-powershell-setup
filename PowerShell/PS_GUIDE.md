@@ -30,8 +30,21 @@
    # Powershell을 위한 profile 기본 설정 폴더를 생성해줍니다.
    mkdir 'Windows PowerShell'
    # 폴더 생성이 완료되었다면, powershell을 위한 default profile.ps file을 생성해줍니다.
-   New-Item '.\Windows PowerShell\Microsoft.PowerShell_profile.ps1'
-   
+   New-Item '.\Windows PowerShell\profile.ps1'
+   ```
+7. 파워쉘 profile config file이 만들어졌다면, 나만의 profile을 설정해줍니다.
+**참고 예시** [shinmini's PS profile.ps1](./Microsoft.PowerShell_profile.ps1)
+``` powershell
+   # 먼저 documents 폴더로 이동해줍니다.
+   notepad '.\Windows PowerShell\profile.ps1'
+```
+9. 파워쉘 프로파일 저장이 완료되었다면, 저장한 폴더로 이동해 powershell로 해당 script를 실행해줍니다.
+
+<kbd>
+   <img height="400px" alt="how to run the PS script" src="https://github.com/ShinMini/window-powershell-setup/assets/77220824/8ad7cbed-5504-4cfc-b68f-d5ef859ad46a" />
+</kbd>
+
+
 ---
 
 ## 2. 파워쉘 꾸미기
