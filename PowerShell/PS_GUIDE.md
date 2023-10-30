@@ -23,7 +23,15 @@
    # 현재 접속한 사용자(나)에 대해 파워쉘 설정 명령어 실행 권한을 부여하는 명령어입니다.
    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
    ```
-
+6. 권한 설정이 완료되었다면, powershell이 실행될 때 첫번째로 참고하는 소위 `init` file을 설정해줄 차례입니다.
+   ``` powershell
+   # 먼저 documents 폴더로 이동해줍니다.
+   cd ~/Documents
+   # Powershell을 위한 profile 기본 설정 폴더를 생성해줍니다.
+   mkdir 'Windows PowerShell'
+   # 폴더 생성이 완료되었다면, powershell을 위한 default profile.ps file을 생성해줍니다.
+   New-Item '.\Windows PowerShell\Microsoft.PowerShell_profile.ps1'
+   
 ---
 
 ## 2. 파워쉘 꾸미기
