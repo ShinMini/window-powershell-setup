@@ -19,14 +19,15 @@
 1. 윈도우 버튼을 눌러 cmd를 검색한다.
 2. 관리자권한으로 실행하기를 눌러 명령 프롬프트창을 실행한다.
 3. 아래 명령어를 CMD에 아래 명령어로 파워쉘을 설치합니다.
-
    ``` cmd
    # winget module 관리시스템을 사용해 powershell을 설치하는 명령어입니다.
    winget search Microsoft.PowerShell
    ```
-4. 설치가 완료되었다면, 윈도우 버튼을 클릭해 `Windows PowerShell`을 검색해 관리자로 실행시켜줍니다.
-5. 관리자 권한으로 powershell이 실행되었다면, 아래 명령어를 통해 `$PROFILE`을 설정할 준비를 마칩니다.
+4. `윈도우 + r` 버튼으로 빠른 실행에서 `wt` 명령어를 입력해 실행을 확인합니다.
+5. 실행이 정상적으로 완료되었다면, 아래 명령어를 통해 관리자 권한으로 powershell을 실행해줍니다.
    ``` powershell
+   # 관리자 권한으로 powershell 실
+   start-process powershell -verb runAs
    # 현재 접속한 사용자(나)에 대해 파워쉘 설정 명령어 실행 권한을 부여하는 명령어입니다.
    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
    ```
@@ -55,9 +56,9 @@
    - 다운로드 완료 이후, 압축해제 윈도우키 + `font` 검색해 fonts 폴더 오픈
    - 압축 해제된 폰트 드레그 & drop
    - powershell에서 `ctrl + ,` 를 입력해 json 파일로 이동해, 아래 그림처럼 폰트 설정
-      <kbd>
-         <img alt="ps-font-config-img" src="https://github.com/ShinMini/window-powershell-setup/assets/77220824/12d88641-5ee3-492b-acd2-b30a6be64e5b" />
-      </kbd>
+<kbd>
+   <img alt="ps-font-config-img" src="https://github.com/ShinMini/window-powershell-setup/assets/77220824/12d88641-5ee3-492b-acd2-b30a6be64e5b" />
+</kbd>
    2. [Oh-My-Posh](https://ohmyposh.dev/docs/migrating) 다운로드 -> 터미널 theme을 책임져주는 고마운 친구들입니다 :)
    ``` powershell
    winget install JanDeDobbeleer.OhMyPosh -s winget
