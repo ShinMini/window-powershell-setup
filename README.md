@@ -11,23 +11,23 @@
 
 <ol>
    <li>
-   <a href="#제1장---파워쉘-학개론"">파워쉘 학개론</a>
+   <a href="#제1장---파워쉘-학개론">파워쉘 학개론</a>
       </li>
    <li>
-      <a href="#chapter2">NVIM 학개론
+      <a href="#제2장---nvim-학개론">NVIM 학개론
       </a>
    </li>
 <li>
-   <a href="#chapter3">윈도우 WSL 학개론</a>
+   <a href="#제3장---윈도우-wsl-학개론">윈도우 WSL 학개론</a>
 </li>
    <li>
-      <a href="#chapter4">VS-CODE 학개론</a>
+      <a href="#제4장---vs-code-학개론">VS-CODE 학개론</a>
    </li>
 </ol>
 
 ---
    
-<h2 id="chapter1">제1장 - 파워쉘 학개론</h2>
+<h2 id="chapter1">제1장 - [파워쉘 학개론]</h2>
 <li>
    <a  href="./PowerShell/PS_GUIDE.md">파워쉘 학개론</a>
 </li>
