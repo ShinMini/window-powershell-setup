@@ -9,15 +9,20 @@
 
 ## 1. 파워쉘 설치하기
 
-1. 윈도우 버튼을 살포시 눌러 cmd를 검색한다.
-   2-1. 관리자권한으로 실행하기를 눌러 명령 프롬프트창을 실행한다.
-   2-2. 해당 명령어를 cmd에 입력해 입문을 시작한다.
+1. 윈도우 버튼을 눌러 cmd를 검색한다.
+2. 관리자권한으로 실행하기를 눌러 명령 프롬프트창을 실행한다.
+3. 아래 명령어를 CMD에 아래 명령어로 파워쉘을 설치합니다.
 
    ``` cmd
+   # winget module 관리시스템을 사용해 powershell을 설치하는 명령어입니다.
    winget search Microsoft.PowerShell
    ```
-
-2. 마이크로소프트 스토어를 통해 다운받는다.
+4. 설치가 완료되었다면, 윈도우 버튼을 클릭해 `Windows PowerShell`을 검색해 관리자로 실행시켜줍니다.
+5. 관리자 권한으로 powershell이 실행되었다면, 아래 명령어를 통해 `$PROFILE`을 설정할 준비를 마칩니다.
+   ``` powershell
+   # 현재 접속한 사용자(나)에 대해 파워쉘 설정 명령어 실행 권한을 부여하는 명령어입니다.
+   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+   ```
 
 ---
 
