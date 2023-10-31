@@ -4,9 +4,9 @@
 
 
 # 모듈 불러오기
-Import-Module -Name Terminal-Icons # 터미널 아이콘을 표시해주는 모듈입니다표
-Import-Module -Name posh-git # 하단 status 창에 git branch 정보를 표시해주는 모듈입니다.
-Import-Module PSReadLine # 자동완성 기능을 활성화해주는 모듈입니다.
+Import-Module -Name Terminal-Icons
+Import-Module -Name posh-git
+Import-Module PSReadLine
 
 # Set-PSReadLineOption -PredictionSource History # 자동완성 기능을 설정 명령어입니다.
 Set-PoshPrompt -Theme jandedobbeleer
